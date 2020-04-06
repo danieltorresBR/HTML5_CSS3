@@ -12,9 +12,25 @@ h1 {
     font-family: 'Indie Flower', cursive;
 }
 
-p {
-    color: blue;
-    font-size:20px;
-    font-family: 'Chilanka', cursive;
-    text-align: justify;
+table {
+    width: 600px;
+}
+
+table thead {
+    background-color: #CCC;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+tbody td {
+    border-bottom: 1px solid #CCC;
+}
+
+tbody tr:nth-child(event) {
+    background-color: red;
 }
