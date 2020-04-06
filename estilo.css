@@ -8,14 +8,13 @@ body {
     font-size: 17px;
 }
 
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
 p {
     color: blue;
     font-size:20px;
-    font-family: 'Arial Narrow', sans-serif;
+    font-family: 'Chilanka', cursive;
     text-align: justify;
-    /*text-transform: lowercase;*/ /*Transforma as letras em minusculas (lowercase) ou maiusculas (uppcase)*/
-    /*letter-spacing: 1px;*/ /*Espacamento entre palavras*/
-    word-spacing: 10px; /*Espcamento entre palavras*/
-    line-height: 25px; /*Espaçamento entre linhas*/
-    text-shadow: 0px 2px 3px red; /*Sombreamento no texto*/
 }
